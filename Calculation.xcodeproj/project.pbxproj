@@ -15,6 +15,7 @@
 		EFD8786F245BE1B7009AF0D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD8786D245BE1B7009AF0D7 /* LaunchScreen.storyboard */; };
 		EFD8787A245BE1B8009AF0D7 /* CalculationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD87879245BE1B8009AF0D7 /* CalculationTests.swift */; };
 		EFD87885245BE1B8009AF0D7 /* CalculationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD87884245BE1B8009AF0D7 /* CalculationUITests.swift */; };
+		EFD87893245BF02C009AF0D7 /* my friends.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EFD87892245BF02C009AF0D7 /* my friends.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EFD87880245BE1B8009AF0D7 /* CalculationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD87884245BE1B8009AF0D7 /* CalculationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationUITests.swift; sourceTree = "<group>"; };
 		EFD87886245BE1B8009AF0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD87892245BF02C009AF0D7 /* my friends.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "my friends.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EFD87861245BE1B4009AF0D7 /* Calculation */ = {
 			isa = PBXGroup;
 			children = (
+				EFD87892245BF02C009AF0D7 /* my friends.JPG */,
 				EFD87862245BE1B4009AF0D7 /* AppDelegate.swift */,
 				EFD87864245BE1B4009AF0D7 /* SceneDelegate.swift */,
 				EFD87866245BE1B4009AF0D7 /* ViewController.swift */,
@@ -234,6 +237,7 @@
 			files = (
 				EFD8786F245BE1B7009AF0D7 /* LaunchScreen.storyboard in Resources */,
 				EFD8786C245BE1B7009AF0D7 /* Assets.xcassets in Resources */,
+				EFD87893245BF02C009AF0D7 /* my friends.JPG in Resources */,
 				EFD8786A245BE1B4009AF0D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,12 +439,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAY2YVU369;
 				INFOPLIST_FILE = Calculation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.Ayanon.Fukui.Calculation;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Fukui.Ayanon.Calculation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,12 +458,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAY2YVU369;
 				INFOPLIST_FILE = Calculation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.Ayanon.Fukui.Calculation;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Fukui.Ayanon.Calculation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
